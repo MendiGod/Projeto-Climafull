@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solicite Assistência</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="container">
+    	<h1><a href="index.html"><img src="\Users\Gabe\Desktop\Climafull\IMGS\LOGO.png" width="18%" height="5%"></a></h1>
+    	<nav>
+    		<ul class="navegacao">
+    			<li><a href="assistencia.html">Solicite Assistência</a></li>
+          <!-- <li><a href="">Contato</a></li> -->
+          <li><a href="QuemSomos.html">Quem Somos</a></li>
+    		</ul>
+    	</nav>
+    </header>
+	     <main>
+       <!-- FORM Serve para criar formulario -->
+      <form>
+        <label for="nomesobrenome"> Nome e Sobrenome</label>
+        <input type="text" id="nomesobrenome" class="input-padrao" required>
+        <label for="telefone">WhatsApp</label>
+        <input type="number" id="telefone"class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+        <fieldset>
+          <legend class="titulo-legend">Qual é o seu produto?</legend>
+
+          <label for="radio-Lava&Seca"><input type="radio" name="produto" value="Lava&Seca" id="radio-Lava&Seca" checked>Lava&Seca</label>
+          
+          <label for="radio-Ar Condicionado"><input type="radio" name="produto" value="Ar Condicionado" id="radio-Ar Condicionado">Ar Condicionado</label>
+          
+          <label for="radio-Refrigerador"><input type="radio" name="produto" value="Refrigerador" id="radio-Refrigerador">Refrigerador</label>
+        </fieldset>
+        <fieldset>
+          <legend class="titulo-legend">Preciso de:</legend>
+          <label for="radio-Instalação"><input type="radio" name="opcao" value="Lava&Seca" id="radio-Instalação">Instalação</label>
+          
+          <label for="radio-Conserto"><input type="radio" name="opcao" value="Conserto" id="radio-Conserto" checked>Conserto</label>
+          
+          <label for="radio-Orçamento"><input type="radio" name="opcao" value="Orçamento" id="radio-Orçamento">Orçamento</label>
+          
+          <legend class="titulo-legend">Escreva oque está acontecendo:</legend>
+        <textarea cols="70" rows="15" id="mensagem" class="input-padrao" placeholder="Digite aqui o modelo que está escrito na etiqueta do seu produto e o que está acontecendo com ele:" required></textarea>
+        </fieldset>
+        <input type="submit" value="Enviar Formulário" class="enviar">
+      </form>
+      <table class="centro-tabela">
+        <thead>
+          <tr>
+            <th>Dia</th>
+            <th>Horário</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Segunda-Feira</td>
+            <td>07:00 ~ 12:00 / 13:00 ~ 17:00</td>
+          </tr>
+
+          <tr>
+            <td>Terça-Feira</td>
+            <td>07:00 ~ 12:00 / 13:00 ~ 17:00</td>
+          </tr>
+
+          <tr>
+            <td>Quarta-Feira</td>
+            <td>07:00 ~ 12:00 / 13:00 ~ 17:00</td>
+          </tr>
+           <tr>
+            <td>Quinta-Feira</td>
+            <td>07:00 ~ 12:00 / 13:00 ~ 17:00</td>
+          </tr>
+           <tr>
+            <td>Sexta-Feira</td>
+            <td>07:00 ~ 12:00 / 13:00 ~ 17:00</td>
+          </tr>
+        </tbody>
+      </table>
+        <div class="zapzap">
+        <a href="https://wa.me/5547992179585?text=Olá, vim através do site solicitar atendimento ou orçamento, o *modelo da etiqueta do meu produto é*:"><img src="\Users\Gabe\Desktop\Climafull\IMGS\zap.png" width="70vw" height="70vh"></a>
+      </div>
+	    </main>
+	  <footer>
+	  	<div class="rodape">
+        <h1><img src="\Users\Gabe\Desktop\Climafull\IMGS\logo.png" width="300vw" height="100vh"> <a href="index.html"></a></h1>
+        <p class="copyright">&copy;Copyright ClimaFull 2023</p>
+        <h1><img src="\Users\Gabe\Desktop\Climafull\IMGS\br-flag.png" width="150vw" height="100vh"></h1>
+	  	</div>
+	  </footer>
+  </body>
+</html>
